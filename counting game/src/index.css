@@ -1,0 +1,15 @@
+@tailwind base;
+@tailwind components;
+@font-face {
+  font-family: 'Fredoka One';
+  src: url('./fonts/static/Fredoka-Regular.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@tailwind utilities;
+
+.bg-gradient-split {
+  
+  background: linear-gradient(#d1e9fa 0 40%, #86c270 40%);
+}
